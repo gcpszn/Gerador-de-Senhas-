@@ -5,7 +5,7 @@ print('GERADOR DE SENHAS'.center(20,' ')) # Cabeçalho do programa
 print('-' * 20)
 
 while True:
-	tam = int(input('Quantos caracteres são necessários [mínimo 4 a máximo 12 caracteres]: '))  # Solicita ao usuário o comprimento desejado para a senha
+	tam = int(input('Quantos caracteres serão necessários? [mínimo 4 a máximo 12 caracteres]: '))  # Solicita ao usuário o comprimento desejado para a senha
 	if 4 <= tam <= 12:	# Verifica se o comprimento está dentro do intervalo permitido
 		senha = '' # Inicializa a variável para armazenar a senha gerada
 		caracteres = 'qwertyuiopasdfghjklçzxcvbnm.789456123!@#$%*' # Conjunto de caracteres permitidos para a senha
